@@ -34,5 +34,5 @@ WORKDIR /work
 
 ADD . .
 
-RUN ./cross_compile_ffmpeg.sh --compiler-flavors=win64 --ffmpeg-git-checkout-version=n3.4.2 --gcc-cpu-count=4
+RUN ./cross_compile_ffmpeg.sh --compiler-flavors=win64 --ffmpeg-git-checkout-version=n3.4.2 --gcc-cpu-count=4; exit 0
 
